@@ -58,7 +58,7 @@ class UpcomingMovies extends StatelessWidget {
                         child: BackdropFilter(
                           filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
                           child: Container(
-                            height: 60,
+                            height: 65,
                             width: 175,
                             padding: const EdgeInsets.all(10),
                             color: Colors.black26,
